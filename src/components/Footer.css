@@ -1,0 +1,28 @@
+.footer {
+  background: #0a5169;
+  padding: 20px 0;
+}
+
+.footer p {
+  color: #fff;
+  opacity: .5;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer .social-links {
+  background: rgba(0,0,0,0)!important;
+  box-shadow: none!important;
+}
+
+.footer ul li {
+  margin: 0 15px;
+  list-style: none;
+  display: inline;
+  float: right;
+}
+
+.footer ul li a img {
+  width: auto;
+  height: 16px;
+}
