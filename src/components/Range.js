@@ -12,7 +12,7 @@ function Range() {
   useEffect(() => {
     const range = document.getElementById('range');
     const rangeV = document.getElementById('rangeV');
-    const pop = document.getElementById('pop');
+    const rangePosition = document.getElementById('rangePosition');
     const partialFee = document.getElementById('partialFee');
 
     const setValue = () => {
@@ -34,87 +34,87 @@ function Range() {
         }
 
         if (abc == 0) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 6px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 6px )`;
             partialFee.innerHTML = `<label> ${fee}0% </label>`;
         }
         else if (abc == 5) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 6px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 6px )`;
             partialFee.innerHTML = `<label> ${fee}0% </label>`;
         }
         else if (abc == 10) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 5px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 5px )`;
             partialFee.innerHTML = `<label> ${fee - 0.14}% </label>`;
         }
         else if (abc == 15) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 4px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 4px )`;
             partialFee.innerHTML = `<label> ${fee - 0.28}% </label>`;
         }
         else if (abc == 20) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 4px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 4px )`;
             partialFee.innerHTML = `<label> ${fee - 0.42}% </label>`;
         }
         else if (abc == 25) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 3px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 3px )`;
             partialFee.innerHTML = `<label> 6.94% </label>`;
         }
         else if (abc == 30) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 2px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 2px )`;
             partialFee.innerHTML = `<label> ${fee - 0.70}0% </label>`;
         }
         else if (abc == 35) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 2px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 2px )`;
             partialFee.innerHTML = `<label> ${fee - 0.84}% </label>`;
         }
         else if (abc == 40) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 1px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 1px )`;
             partialFee.innerHTML = `<label> ${fee - 0.98}% </label>`;
         }
         else if (abc == 45) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) + 0px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) + 0px )`;
             partialFee.innerHTML = `<label> ${fee - 1.12}% </label>`;
         }
         else if (abc == 50) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 1px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 1px )`;
             partialFee.innerHTML = `<label> ${fee - 1.26}% </label>`;
         }
         else if (abc == 55) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 1px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 1px )`;
             partialFee.innerHTML = `<label> ${fee - 1.40}0% </label>`;
         }
         else if (abc == 60) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 2px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 2px )`;
             partialFee.innerHTML = `<label> ${fee - 1.54}% </label>`;
         }
         else if (abc == 65) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 3px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 3px )`;
             partialFee.innerHTML = `<label> ${fee - 1.68}% </label>`;
         }
         else if (abc == 70) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 4px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 4px )`;
             partialFee.innerHTML = `<label> ${fee - 1.82}% </label>`;
         }
         else if (abc == 75) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 5px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 5px )`;
             partialFee.innerHTML = `<label> ${fee - 1.96}% </label>`;
         }
         else if (abc == 80) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 6px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 6px )`;
             partialFee.innerHTML = `<label> ${fee - 2.1}0%  </label>`;
         }
         else if (abc == 85) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 6px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 6px )`;
             partialFee.innerHTML = `<label> ${fee - 2.24}% </label>`;
         }
         else if (abc == 90) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 7px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 7px )`;
             partialFee.innerHTML = `<label> ${fee - 2.38}% </label>`;
         }
         else if (abc == 95) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 8px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 8px )`;
             partialFee.innerHTML = `<label> ${fee - 2.52}% </label>`;
         }
         else if (abc == 100) {
-            pop.style.left = `calc(${newValue}% + (${newPosition}px) - 8px )`;
+            rangePosition.style.left = `calc(${newValue}% + (${newPosition}px) - 8px )`;
             partialFee.innerHTML = `<label> ${fee - 2.80}0% </label>`;
         }
 
@@ -148,7 +148,7 @@ function Range() {
 
     <div className="range-wrap">
 
-        <div className="rangeslider__handle-tooltip" id="pop">
+        <div className="rangeslider__handle-tooltip range-value" id="rangePosition">
           <span>
             <div className="slider_tooltip_price" id="rangeV"> ${value}0K </div> <br />
             <div className="slider_tooltip_text"> Estimate Grand Total </div>
