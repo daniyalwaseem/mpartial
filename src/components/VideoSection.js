@@ -6,7 +6,7 @@ function VideoSection() {
   return (
     <>
       <div className='video-container'>
-        <video src='/videos/video-1.mp4' autoPlay loop muted />
+        <video src='/videos/video-1.mp4' type="video/mp4" autoPlay loop muted />
         <div className="main_banner_text">
           Impartial, Remote, 3rd-Party,
           <br />
