@@ -5,6 +5,8 @@
   overflow: hidden;
   position: relative;
   top: 0px;
+  background: #000;
+  visibility: visible;
 }
 
 video {
