@@ -47,6 +47,14 @@ video {
     height: 378px;
   }
 
+  .video-container video {
+    position: absolute!important;
+    width: 100%!important;
+    height: auto!important;
+    top: 39px!important;
+    left: 0!important;
+  }
+
   .video-container .main_banner_text {
     line-height: 28px;
     top: 50%;
@@ -58,6 +66,14 @@ video {
     height: 251px!important;
   }
 
+  .video-container video {
+    position: absolute!important;
+    width: 100%!important;
+    height: auto!important;
+    top: 39px!important;
+    left: 0!important;
+  }
+
   .video-container .main_banner_text {
     line-height: 28px;
     top: 50%;
@@ -67,14 +83,6 @@ video {
 @media screen and (max-width: 385px) and (min-width: 365px){
   .video-container {
     height: 248px!important;
-  }
-
-  video {
-    position: absolute!important;
-    width: 100%!important;
-    height: auto!important;
-    top: 39px!important;
-    left: 0!important;
   }
 
   .video-container .main_banner_text {
