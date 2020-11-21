@@ -703,10 +703,6 @@ input[type="range"]::-webkit-slider-thumb {
   #Example-Deliverables .Example_1 {
     padding-bottom: 50px;
   }
-
-  .carousel-control-next{
-    padding-left: 45px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -728,7 +724,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .carousel-control-next{
     padding-left: 26px;
   }
