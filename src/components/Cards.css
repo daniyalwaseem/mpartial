@@ -51,7 +51,7 @@ html {
 #Ground-Truth-Data .compare_images_section {
   width: 100%;
   height: auto;
-  padding: 50px 50px 0;
+  padding: 50px 30px 0px 30px;
 }
 
 .ba-slider {
@@ -164,7 +164,7 @@ transition: all 0.3s ease;
   }
 
   #Ground-Truth-Data .compare_images_section {
-    padding: 50px;
+    padding: 50px 0px 50px 0px;
   }
 
   .handle {
@@ -172,7 +172,7 @@ transition: all 0.3s ease;
   }
 
   .handle:after {
-    top: 57%;
+    top: 52%;
   }
 }
 
