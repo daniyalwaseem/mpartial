@@ -46,7 +46,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
                 <a
-                  href="#Ground-Truth-Data"
+                  href="/#Ground-Truth-Data"
                   className={navlinks ? 'nav-links active' : 'nav-links'}
                   onClick={closeMobileMenu}>
 
@@ -55,7 +55,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <a
-                  href="#How-It-Works"
+                  href="/#How-It-Works"
                   className={navlinks ? 'nav-links active' : 'nav-links'}
                   onClick={closeMobileMenu}>
 
@@ -64,7 +64,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <a
-                  href="#Fee-Structure"
+                  href="/#Fee-Structure"
                   className={navlinks ? 'nav-links active' : 'nav-links'}
                   onClick={closeMobileMenu}>
 
@@ -73,7 +73,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <a
-                  href="#Example-Deliverables"
+                  href="/#Example-Deliverables"
                   className={navlinks ? 'nav-links active' : 'nav-links'}
                   onClick={closeMobileMenu}>
 
@@ -91,7 +91,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <a
-                  href="#Contact-US"
+                  href="/#Contact-US"
                   className={navlinks ? 'nav-links active' : 'nav-links'}
                   onClick={closeMobileMenu}>
 
