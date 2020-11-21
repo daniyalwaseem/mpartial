@@ -159,7 +159,7 @@ function Range() {
         <div class="waterfall">
             <ul>
                 <li>$0</li>
-                <li>$250,0000</li>
+                <li>$250,000</li>
                 <li>$500,000</li>
                 <li>$750,000</li>
                 <li>$1M+</li>

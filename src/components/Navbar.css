@@ -81,6 +81,7 @@
   letter-spacing: 0;
   color: #f6f8f9;
   opacity: 1;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-links.active {
