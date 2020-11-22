@@ -61,7 +61,6 @@
   text-align: center;
   width: 70vw;
   justify-content: end;
-  margin-right: 2rem;
   margin-bottom: 30px;
 }
 
@@ -74,8 +73,8 @@
   align-items: center;
   text-decoration: none;
   height: 100%;
-  padding-left: .5rem;
-  font-weight: 400;
+  padding-left: .3rem;
+  font-weight: 500;
   font-size: 12px;
   line-height: 32px;
   letter-spacing: 0;
@@ -99,11 +98,11 @@
   border-color: #3ac280;
   border-radius: 20px;
   border: 1px solid rgba(0,0,0,0);
-  padding: 5px 25px;
+  padding: 6px 25px;
   letter-spacing: 0;
   font-size: 12px;
   line-height: 16px;
-  margin-left: 7%;
+  font-weight: 600;
   white-space: nowrap;
   min-width: 20px;
   color: #f6f8f9;
@@ -142,6 +141,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    grid-gap: 0;
   }
 
   .nav-menu.active {
@@ -156,11 +156,12 @@
   }
 
   .nav-links {
-    color: #000;
+    color: #4a4848;
     text-align: center;
     padding: 0;
     width: 100%;
     display: table;
+    font-weight: 400;
   }
 
   .nav-links:hover {
@@ -253,7 +254,7 @@
   }
 
   .nav-links {
-    color: #000;
+    color: #4a4848;
     text-align: center;
     padding: 0;
     width: 100%;

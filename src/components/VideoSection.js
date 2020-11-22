@@ -12,6 +12,7 @@ function VideoSection() {
           <br />
           Estimating Engine
         </div>
+        <div className="slider_down_btn"></div>
       </div>
     </>
   );
