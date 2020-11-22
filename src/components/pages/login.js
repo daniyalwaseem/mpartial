@@ -9,18 +9,6 @@ export default function Products() {
           <span className="title"> Sign In with your mpartial account. </span>
         </div>
       </div>
-
-      <div className="login_page"> 
-        <div className="container">
-          <span className="title"> Sign In with your mpartial account. </span>
-        </div>
-      </div>
-
-      <div className="login_page"> 
-        <div className="container">
-          <span className="title"> Sign In with your mpartial account. </span>
-        </div>
-      </div>
     </>
   )
 }

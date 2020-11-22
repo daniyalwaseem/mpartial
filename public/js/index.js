@@ -1,3 +1,11 @@
+// slider down mouse 
+$("#slide_down").click(function() {
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $("#Ground-Truth-Data").offset().top
+  }, 10);
+});
+  
+
 // Popuo of Label
 $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
