@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import Range from "./Range";
-import './Cards.css';
+import './Main.css';
 
-function Cards() {
+function Main() {
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -177,27 +177,27 @@ function Cards() {
                 <div className="carousel-inner" role="listbox">
 
                   <div className="carousel-item active">
-                    <img src="/images/img1.jpg" />
+                    <img src="/images/img1.jpg" alt="" />
                   </div>
 
                   <div className="carousel-item">
-                    <img src="/images/img2.jpg" />
+                    <img src="/images/img2.jpg" alt="" />
                   </div>
 
                   <div className="carousel-item">
-                    <img src="/images/img3.jpg" />
+                    <img src="/images/img3.jpg" alt="" />
                   </div>
 
                   <div className="carousel-item">
-                    <img src="/images/img4.jpg" />
+                    <img src="/images/img4.jpg" alt="" />
                   </div>
 
                   <div className="carousel-item">
-                    <img src="/images/img5.jpg" />
+                    <img src="/images/img5.jpg" alt="" />
                   </div>
 
                   <div className="carousel-item" >
-                    <img src="/images/img6.jpg" />
+                    <img src="/images/img6.jpg" alt="" />
                   </div>
 
                 </div>
@@ -215,7 +215,7 @@ function Cards() {
             <div className="sketch-widget">
 
               <h3 className="widget-title mt-1">
-                <a href="https://support.matterport.com/hc/en-us/articles/360001452428-Matterport-TrueSketch-and-TrueSketch-PLUS-for-Xactimate" target="_blank">
+                <a href="https://support.matterport.com/hc/en-us/articles/360001452428-Matterport-TrueSketch-and-TrueSketch-PLUS-for-Xactimate" target="_blank" rel="noopener noreferrer">
                 TrueSketch PLUS [SKX]
                 </a>
               </h3>
@@ -224,11 +224,11 @@ function Cards() {
                 <div className="row">
 
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <img src="/images/sketch1.png" />
+                    <img src="/images/sketch1.png" alt=""  />
                   </div>
 
                   <div className="col-lg-6 col-md-12 col-sm-12">
-                    <img src="/images/sketch2.png" />
+                    <img src="/images/sketch2.png" alt=""  />
                   </div>
 
                 </div>
@@ -260,17 +260,17 @@ function Cards() {
                 <div className="col-md-6 col-sm-12 ">
 
                 <div className="form-group nogroup">
-                    <input type="text" name="Name" required id="inputField1" class="input-area"/>
+                    <input type="text" name="Name" required id="inputField1" className="input-area"/>
                     <label for="inputField1" className="floating_label"> Your Name </label>
                   </div>
 
                   <div className="form-group nogroup">
-                    <input type="text" name="Email" required id="inputField2" class="input-area"/>
+                    <input type="text" name="Email" required id="inputField2" className="input-area"/>
                     <label for="inputField2" className="floating_label"> Email </label>
                   </div>
 
                   <div className="form-group nogroup">
-                    <input type="text" name="Cell" required id="inputField3" class="input-area"  />
+                    <input type="text" name="Cell" required id="inputField3" className="input-area"  />
                     <label for="inputField3" className="floating_label"> Cell </label>
                   </div>
 
@@ -279,7 +279,7 @@ function Cards() {
                 <div className="col-md-6 col-sm-12 ">
 
                   <div className="form-group nogroup">
-                    <textarea name="Message" required id="text_area" class="input-area"  />
+                    <textarea name="Message" required id="text_area" className="input-area"  />
                     <label for="text_area" className="floating_label">  Write your message...  </label>
                   </div>
 
@@ -303,4 +303,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Main;

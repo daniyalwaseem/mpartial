@@ -1,13 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 function Range() {
 
-    const value = 15;
-    const label = 7.22;
+    const [value, setValue] = useState('15');
 
-    function getValue(e) {
-        let value = e.target.value;
-    }
+    const label = 7.22;
 
   useEffect(() => {
     const range = document.getElementById('range');
@@ -144,44 +141,46 @@ function Range() {
 
 
   return (
-      <div>
+        <div>
 
-    <div className="range-wrap">
+            <div className="range-wrap">
 
-        <div className="rangeslider__handle-tooltip range-value" id="rangePosition">
-          <span>
-            <div className="slider_tooltip_price" id="rangeV"> ${value}0K </div> <br />
-            <div className="slider_tooltip_text"> Estimate Grand Total </div>
-          </span>
-        </div>
-        <input type="range" id="range" min="0" max="100" step="5" onInput={selectedEffectValue} onChange={getValue} />
+                <div className="rangeslider__handle-tooltip range-value" id="rangePosition">
+                    <span>
+                        <div className="slider_tooltip_price" id="rangeV"> ${value}0K </div> <br />
+                        <div className="slider_tooltip_text"> Estimate Grand Total </div>
+                    </span>
+                </div>
 
-        <div class="waterfall">
-            <ul>
-                <li>$0</li>
-                <li>$250,000</li>
-                <li>$500,000</li>
-                <li>$750,000</li>
-                <li>$1M+</li>
-            </ul>
-        </div>
+                <input type="range" id="range" min="0" max="100" step="5" onInput={selectedEffectValue} onChange={e => setValue(e.target.value)} />
 
-        <p class="section_title_description css-ulgnwk-WaterFall">Drag the slider around based on what you think it will cost to repair the property. <br />
-            Move forward based on the estimated fee structure below.</p>
+                <div className="waterfall">
+                    <ul>
+                        <li>$0</li>
+                        <li>$250,000</li>
+                        <li>$500,000</li>
+                        <li>$750,000</li>
+                        <li>$1M+</li>
+                    </ul>
+                </div>
 
-        <div class="partial_fee_btn">
-            <i class="info_popup" data-toggle="popover" data-placement="top" data-content="Fee Structure Example: An estimate grand total of $100k will result in a fee of $7,360. The $750 deposit will be collected upon submission and applied toward the overarching fee."> i </i>
-            <div id="partialFee">
-                <label> {label}% </label>
+                <p className="section_title_description css-ulgnwk-WaterFall">Drag the slider around based on what you think it will cost to repair the property. <br />
+                    Move forward based on the estimated fee structure below.</p>
+
+                <div className="partial_fee_btn">
+                    <i className="info_popup" data-toggle="popover" data-placement="top" data-content="Fee Structure Example: An estimate grand total of $100k will result in a fee of $7,360. The $750 deposit will be collected upon submission and applied toward the overarching fee."> i </i>
+                    <div id="partialFee">
+                        <label> {label}% </label>
+                    </div>
+                    <span> mpartial Fee </span>
+                </div>
+
+                <p className="waterfall_info_text"> [$750 Minimum] </p>
+
             </div>
-            <span> mpartial Fee </span>
+
         </div>
-
-        <p class="waterfall_info_text"> [$750 Minimum] </p>
-
-    </div>
-    </div>
-  );
+    );
 }
 
 export default Range;
